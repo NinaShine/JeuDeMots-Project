@@ -1,0 +1,62 @@
+{
+    "nodes": [
+        {
+            "id": 74657,
+            "name": "pigeon",
+            "type": 1,
+            "w": 944,
+            "c": 0,
+            "level": 47.6656,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2025-02-19T10:08:49"
+        },
+        {
+            "id": 10078,
+            "name": "volatile",
+            "type": 1,
+            "w": 290,
+            "c": 0,
+            "level": 50.6599,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2025-02-19T09:29:53"
+        }
+    ],
+    "relations": [
+        {
+            "id": 9902733,
+            "node1": 74657,
+            "node2": 10078,
+            "type": 6,
+            "w": 403.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2025-02-19T14:03:04.482213",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "pigeon",
+        "node2": "volatile",
+        "#relations": 1,
+        "max_relation_weight": 403.0,
+        "duration": "0:00:00.003329"
+    }
+}
